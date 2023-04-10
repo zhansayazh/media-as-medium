@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit:wght@500&display=swap');
+
+body {
+    margin: 30px 100px;
+    background: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+}
+.header, .title {
+    font-family: 'Kanit', sans-serif;
+}
+.title {
+    margin: 50px 0px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 100px;
+    box-sizing: border-box;
+    padding: 0px 0px 36px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.author {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+}
+.block-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-end-text {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    align-items: center;
+}
+.block-end-icon {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.item-type {
+    margin-right: 10px;
+    background-color: #081E341F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    border-radius: 100px;
+    color: #081E34;
+    font-weight: 500;
+}
+
+.back-button {
+    margin-top: 60px;
+}
+.opacity {
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header-article {
+    display: flex;
+    flex-direction: row;
+}
+.info-article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.author-article {
+    margin-left: 15px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    column-gap: 20px;
+    
+}
+.date-article {
+    margin-left: 15px;
+    height: 32px;
+    display: flex;
+    align-items: flex-start;
+}
+.content-article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    
+}
+.arrow-right {
+    margin-top: 88px;
+    margin-bottom: 160px;
+    width: 24px;
+    height: 24px;
+}
+
+.arrow-right:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
